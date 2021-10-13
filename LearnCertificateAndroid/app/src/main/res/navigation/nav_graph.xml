@@ -9,5 +9,13 @@
         android:id="@+id/mainFragment"
         android:name="br.com.learncertificateandroid.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_toastSnakeFragment"
+            app:destination="@id/toastSnakeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toastSnakeFragment"
+        android:name="br.com.learncertificateandroid.codelab.core.toast.ToastSnakeFragment"
+        android:label="ToastSnakeFragment" />
 </navigation>
