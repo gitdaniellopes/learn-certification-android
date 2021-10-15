@@ -2,4 +2,130 @@
     <string name="app_name">LearnCertificateAndroid</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="channel_name">notification_channel_simple_msg</string>
+    <string name="channel_description">Channel Simple Message Description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Titles -->
+    <!-- TODO: rfer -->
+    <string name="blur_title">Select Blur Amount</string>
+
+    <!-- Buttons -->
+    <string name="select_image">Select Image</string>
+    <string name="go">Go</string>
+    <string name="see_file">See File</string>
+
+    <!-- Content descriptions -->
+    <string name="description_image">The image to blur and save.</string>
+
+    <!-- Blur levels -->
+    <string name="blur_lv_1">A little blurred</string>
+    <string name="blur_lv_2">More blurred</string>
+    <string name="blur_lv_3">The most blurred</string>
+    <string name="cancel_work">Cancel Work</string>
+
+    <!-- Messages -->
+    <string name="set_permissions_in_settings">Go to Settings -> Apps and Notifications ->
+        WorkManager Demo -> App Permissions and grant access to Storage.</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_button_next">Next</string>
+    <string name="shr_button_cancel">Cancel</string>
+    <string name="shr_error_password">Wrong Password</string>
+    <string name="interactive_ui_button_toast">Toast</string>
+    <string name="interactive_ui_button_count">Count</string>
+    <string name="interactive_ui_count_initial_value">0</string>
+    <string name="toast_message">Hello toast!</string>
+    <string name="send_button">Send</string>
+    <string name="input_send_text">Enter Your Message Here</string>
+    <string name="text_header_reply_fragment">Message Received (Reply Fragment)</string>
+    <string name="text_header_send_fragment" translatable="false">Message Received (Send Fragment)</string>
+    <string name="reply_button">Reply</string>
+    <string name="title_activity_show_tabs">ShowTabsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="top_stories_fragment">These are the top stories</string>
+    <string name="top_news_fragment">Tech news you can use</string>
+    <string name="top_cooking_tips_fragment">Cooking tips</string>
+
+    <string name="tab_label1">Top Stories</string>
+    <string name="tab_label2">Tech News</string>
+    <string name="tab_label3">Cooking</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="chose_camera">You chose Camera Import.</string>
+    <string name="chose_gallery">You chose the Gallery.</string>
+    <string name="chose_slideshow">You chose the Slideshow.</string>
+    <string name="chose_tools">You chose Tools.</string>
+    <string name="chose_share">You chose Share.</string>
+    <string name="chose_send">You chose Send.</string>
+    <string name="import_camera">Import</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="tab_label4">Drawer</string>
+    <string name="swipe_left_to_right">Swipe from Left to Right</string>
+    <string name="drawer">Drawer</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_status">Status</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
+    <string name="hint_word">Word...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="add_word">Add word</string>
+    <string name="duplicated">Duplicado - já visto em: Room with View</string>
+    <string name="duplicated_dynamic" translatable="false">Duplicado - já visto em: %s</string>
+    <string name="notify_me">Notify Me!</string>
+
+    <!-- paging 3 library colors -->
+    <string name="loading" translatable="false">Loading</string>
+    <string name="language" translatable="false">Language: %s</string>
+    <string name="search_hint" translatable="false">GitHub Repository</string>
+    <string name="no_results" translatable="false">No results 😓</string>
+    <string name="unknown" translatable="false">\?</string>
+    <string name="retry" translatable="false">Retry</string>
+
+    <string name="skip">Skip</string>
+    <string name="play_again">Play Again</string>
+    <string name="you_scored">You Scored</string>
+    <string name="title_text">guess the word!</string>
+    <string name="play_button">Play</string>
+    <string name="get_ready">Get ready to</string>
+    <string name="got_it">Got it</string>
+    <string name="end_game">End game</string>
+    <string name="word_is">The word is…</string>
+    <string name="input_password_hint_text">Password</string>
+    <string name="input_password_error_text_default">Default Error Text</string>
+    <string name="input_helper_text_blank_space">default Helper Text</string>
+
+    <!-- Codelab App Settings - Preference Titles -->
+    <string name="messages_header" translatable="false">Configurações de Resposta</string>
+    <string name="sync_header" translatable="false">Sincronização de Emails</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Sua Assinatura</string>
+    <string name="reply_title" translatable="false">Resposta Padrão</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sincronizar Periodicamente</string>
+    <string name="attachment_title" translatable="false">Fazer Download de Anexos</string>
+    <string name="attachment_summary_on" translatable="false">Baixar automaticamente Anexos de Emails</string>
+    <string name="attachment_summary_off" translatable="false">Apenas baixar Anexos quando solicitados manualmente</string>
+    <string name="computationError" translatable="false">Impossível Resolver Esse Calculo!</string>
+
 </resources>

@@ -13,9 +13,18 @@
         <action
             android:id="@+id/action_mainFragment_to_toastSnakeFragment"
             app:destination="@id/toastSnakeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
     </fragment>
     <fragment
+        tools:layout="@layout/fragment_toast_snake"
         android:id="@+id/toastSnakeFragment"
         android:name="br.com.learncertificateandroid.codelab.core.toast.ToastSnakeFragment"
         android:label="ToastSnakeFragment" />
+    <fragment
+        tools:layout="@layout/fragment_notification"
+        android:id="@+id/notificationFragment"
+        android:name="br.com.learncertificateandroid.codelab.core.toast.notification.NotificationFragment"
+        android:label="NotificationFragment" />
 </navigation>
